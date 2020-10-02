@@ -29,6 +29,13 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    lintOptions {
+        checkDependencies true
+        xmlReport true
+        xmlOutput file("${project.rootDir}/build/reports/lint-results.xml")
+        htmlReport true
+        htmlOutput file("${project.rootDir}/build/reports/lint-results.html")
+    }
 }
 
 dependencies {

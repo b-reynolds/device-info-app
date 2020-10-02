@@ -1,9 +1,9 @@
-package com.example.deviceinfo.infoitems
+package com.example.deviceinfo.dataitems
 
 /**
  * Provides a simple piece of data to display to the user.
  */
-interface InfoItem {
+interface DataItem {
     /**
      * Readable label of the data.
      */

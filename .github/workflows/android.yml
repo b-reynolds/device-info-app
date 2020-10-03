@@ -29,8 +29,8 @@ jobs:
       uses: actions/setup-java@v1.4.2
       with:
         java-version: 1.8
-    #- name: run ktlintCheck
-    #  run: ./gradlew ktlintCheck
+    - name: run ktlintCheck
+      run: ./gradlew ktlintCheck
     - name: run lintDebug
       run: ./gradlew app:lintDebug
     #- name: run detekt

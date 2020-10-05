@@ -105,10 +105,12 @@ obj/
 
 # User-specific configurations
 .idea/libraries/
+.idea/sonarlint/
 .idea/.name
 .idea/compiler.xml
 .idea/copyright/profiles_settings.xml
 .idea/encodings.xml
+.idea/navEditor.xml
 .idea/misc.xml
 .idea/modules.xml
 .idea/scopes/scope_settings.xml

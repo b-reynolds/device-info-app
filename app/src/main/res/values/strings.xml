@@ -2,7 +2,7 @@
     <string name="app_name">Device Info</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
+    <string name="summary_fragment_label">Summary Fragment</string>
 
     <string name="manufacturer">Manufacturer</string>
 </resources>

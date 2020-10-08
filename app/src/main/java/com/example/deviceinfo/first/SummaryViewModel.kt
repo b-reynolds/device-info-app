@@ -5,9 +5,9 @@ import com.example.deviceinfo.dataitems.ManufacturerData
 import com.xwray.groupie.Section
 
 /**
- * A ViewModel for use with the [FirstFragment].
+ * A ViewModel for use with the [SummaryFragment].
  */
-class FirstViewModel : ViewModel() {
+class SummaryViewModel : ViewModel() {
     /**
      * The list of data items to display to the user.
      */

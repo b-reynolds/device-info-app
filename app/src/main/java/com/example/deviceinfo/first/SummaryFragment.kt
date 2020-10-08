@@ -14,8 +14,8 @@ import com.xwray.groupie.groupiex.plusAssign
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
-class FirstFragment : Fragment(R.layout.fragment_first) {
-    private val viewModel by viewModels<FirstViewModel>()
+class SummaryFragment : Fragment(R.layout.fragment_list) {
+    private val viewModel by viewModels<SummaryViewModel>()
 
     private val groupAdapter = GroupAdapter<GroupieViewHolder>()
 

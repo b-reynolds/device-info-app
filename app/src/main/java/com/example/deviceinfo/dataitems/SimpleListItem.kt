@@ -3,8 +3,8 @@ package com.example.deviceinfo.dataitems
 import com.example.deviceinfo.R
 import com.xwray.groupie.kotlinandroidextensions.GroupieViewHolder
 import com.xwray.groupie.kotlinandroidextensions.Item
-import kotlinx.android.synthetic.main.item_key_value.firstValue
 import kotlinx.android.synthetic.main.item_key_value.firstLabel
+import kotlinx.android.synthetic.main.item_key_value.firstValue
 
 /**
  * A simple model object for displaying an item in a Groupie adapter.

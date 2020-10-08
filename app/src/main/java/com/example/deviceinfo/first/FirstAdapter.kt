@@ -31,6 +31,9 @@ class FirstAdapter : RecyclerView.Adapter<FirstAdapter.ViewHolder>() {
 
     override fun getItemCount() = data.count()
 
+    /**
+     * Inner class used for a custom view holder implementation.
+     */
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         /**
          * Bind the data in [dataItem] to the current [itemView].

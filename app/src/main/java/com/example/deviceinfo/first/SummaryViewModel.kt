@@ -1,6 +1,10 @@
 package com.example.deviceinfo.first
 
+import android.content.Context
+import android.content.Context.BATTERY_SERVICE
+import android.os.BatteryManager
 import androidx.lifecycle.ViewModel
+import com.example.deviceinfo.dataitems.BatteryCapacityData
 import com.example.deviceinfo.dataitems.ManufacturerData
 import com.xwray.groupie.Section
 
@@ -8,12 +12,18 @@ import com.xwray.groupie.Section
  * A ViewModel for use with the [SummaryFragment].
  */
 class SummaryViewModel : ViewModel() {
+
     /**
-     * The list of data items to display to the user.
+     * Generates the list of data items to display to the user.
      */
-    val dataItems = listOf(
+    fun getDataItems(context: Context) = listOf(
         Section(
-            ManufacturerData()
+            listOf(
+                ManufacturerData(),
+                BatteryCapacityData(
+                    requireNotNull(context.getSystemService(BATTERY_SERVICE) as? BatteryManager)
+                )
+            )
         )
     )
 }

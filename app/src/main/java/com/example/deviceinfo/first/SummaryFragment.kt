@@ -22,7 +22,7 @@ class SummaryFragment : Fragment(R.layout.fragment_list) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        groupAdapter += viewModel.dataItems
+        groupAdapter += viewModel.getDataItems(requireContext())
         view.findViewById<RecyclerView>(R.id.firstRecyclerView).apply {
             adapter = groupAdapter
             layoutManager = LinearLayoutManager(requireContext())

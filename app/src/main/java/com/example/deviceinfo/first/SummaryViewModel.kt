@@ -6,6 +6,7 @@ import android.os.BatteryManager
 import androidx.lifecycle.ViewModel
 import com.example.deviceinfo.dataitems.BatteryCapacityData
 import com.example.deviceinfo.dataitems.ManufacturerData
+import com.example.deviceinfo.dataitems.ModelData
 import com.xwray.groupie.Section
 
 /**
@@ -20,6 +21,7 @@ class SummaryViewModel : ViewModel() {
         Section(
             listOf(
                 ManufacturerData(),
+                ModelData(),
                 BatteryCapacityData(
                     requireNotNull(context.getSystemService(BATTERY_SERVICE) as? BatteryManager)
                 )

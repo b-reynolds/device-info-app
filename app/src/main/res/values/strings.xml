@@ -5,6 +5,7 @@
     <string name="summary_fragment_label">Summary Fragment</string>
 
     <string name="manufacturer">Manufacturer</string>
+    <string name="model">Model</string>
 
     <!-- Battery -->
     <string name="battery_capacity">Battery Capacity</string>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListPreference
+        app:useSimpleSummaryProvider="true"
+        app:defaultValue="System"
+        app:entries="@array/themes"
+        app:entryValues="@array/themes"
+        app:key="@string/theme_key"
+        app:title="@string/theme_title" />
+</androidx.preference.PreferenceScreen>

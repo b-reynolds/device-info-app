@@ -9,4 +9,11 @@
 
     <!-- Battery -->
     <string name="battery_capacity">Battery Capacity</string>
+    <string name="theme_title">App Theme</string>
+
+    <string-array name="themes">
+        <item>Day</item>
+        <item>Night</item>
+        <item>System</item>
+    </string-array>
 </resources>
